@@ -33,8 +33,13 @@ composer create-project bayfrontmedia/bones-app PROJECT_NAME
 
 ### Update required files
 
-- Rename `.env.example` to `.env` and update ([see docs](https://github.com/bayfrontmedia/bones/blob/master/docs/README.md#environment-variables))
+- Rename `.env.example` to `.env` and update* ([see docs](https://github.com/bayfrontmedia/bones/blob/master/docs/README.md#environment-variables))
 - Update `config/app.php` as needed ([see docs](https://github.com/bayfrontmedia/bones/blob/master/docs/usage/config.md))
+
+\* There is typically no need to update the line `APP_KEY=SECURE_APP_KEY`, as the installation command below
+will automatically update this with a valid app key. 
+If an app key is not generated after running the installation command, one can be created with the
+`php bones key:create` command.
 
 ### Run installation command
 
