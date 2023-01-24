@@ -8,6 +8,8 @@ Bones controllers documentation can be found [here](https://github.com/bayfrontm
 
 - [Errors](#errors)
 
+<hr />
+
 ### Errors
 
 The Errors controller exists for use by the exception handler.

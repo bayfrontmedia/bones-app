@@ -9,6 +9,8 @@ Bones events documentation can be found [here](https://github.com/bayfrontmedia/
 - [Bootstrap](#bootstrap)
 - [Dev](#dev)
 
+<hr />
+
 ### Bootstrap
 
 The Bootstrap event subscriber exists to subscribe to events necessary to bootstrap the application,
@@ -26,6 +28,8 @@ The following headers are added:
 
 - `X-Application`
 - `X-Application-Version`
+
+<hr />
 
 ### Dev
 

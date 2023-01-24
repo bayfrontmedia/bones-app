@@ -8,6 +8,8 @@ Bones exceptions documentation can be found [here](https://github.com/bayfrontme
 
 - [Handler](#handler)
 
+<hr />
+
 ### Handler
 
 The exception handler is located at `/app/Exceptions/Handler.php`.
