@@ -1,6 +1,6 @@
 ## Bones App
 
-The simplest bare-bones configuration to begin building an application using the Bones framework.
+A simple boilerplate to begin building an application using the Bones framework.
 
 - [License](#license)
 - [Author](#author)
@@ -40,14 +40,14 @@ One can be created using the `php bones key:create` command once Bones is instal
 
 ### Configure the app
 
-Update `config/app.php` as needed ([see docs](https://github.com/bayfrontmedia/bones/blob/master/docs/usage/config.md))
+Update `config/app.php` as needed. ([see docs](https://github.com/bayfrontmedia/bones/blob/master/docs/usage/config.md))
 
 ### Start using Bones
 
-At this point, Bones should be installed and ready to use.
-You can test this by running the `php bones about:bones` command.
+You are now ready to begin building your application! 
 
-You are now ready to begin building your application.
+At this point, Bones should be installed and ready to use.
+You can test this by running the console command `php bones about:bones`.
 
 ### Optional services
 

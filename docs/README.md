@@ -2,7 +2,7 @@
 
 ## Summary
 
-The simplest bare-bones configuration to begin building an application using the Bones framework.
+A simple boilerplate to begin building an application using the Bones framework.
 
 ## Application
 

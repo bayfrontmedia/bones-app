@@ -4,17 +4,15 @@ The app console commands are located at `/app/Console/Commands`.
 
 Bones console documentation can be found [here](https://github.com/bayfrontmedia/bones/blob/master/docs/usage/console.md).
 
-## App commands
-
 - [DeployApp](#deployapp)
 - [DeployPurge](#deploypurge)
 
-### DeployApp
+## DeployApp
 
-The `php bones deploy:app` command is designed to help facilitate the app deployment process.
+This command is designed to help facilitate the app deployment process.
 You may need to customize this command, depending on your application and server configuration.
 
-> **NOTE:** This command requires an additional `backup_path` key to exist in the [app configuration file](configuration.md).
+> **NOTE:** This command requires an additional `backup_path` key to exist in the [app configuration file](configuration.md#app-configuration).
 
 ```shell
 # Deploy application
@@ -24,9 +22,9 @@ php bones deploy:app TARGET
 php bones deploy:app TARGET --backup
 ```
 
-### DeployPurge
+## DeployPurge
 
-The `php bones deploy:purge` command is designed to purge unwanted deployment backups.
+This command is designed to purge unwanted deployment backups.
 
 > **NOTE:** This command requires an additional `backup_path` key to exist in the [app configuration file](configuration.md).
 
