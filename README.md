@@ -47,7 +47,7 @@ If an app key is not generated after running the installation command, one can b
 php bones install:bare
 ```
 
-Optional services can be installed by including any of the following options:
+[Optional services](https://github.com/bayfrontmedia/bones/blob/dev/docs/README.md#services) can be installed by including any of the following options:
 
 - `--db`
 - `--filesystem`
