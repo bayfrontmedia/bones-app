@@ -85,23 +85,11 @@ class DeployApp extends Command
 
         $output->writeln('Pulling from Git target: ' . $target . '...');
 
-        //shell_exec('git pull ' . $target);
-
-        //shell_exec('git fetch --all');
-        //shell_exec('git checkout --force ' . $target);
-
-        //shell_exec('git fetch --all');
-        //shell_exec('git reset --hard HEAD');
-        //shell_exec('git merge ' . $target);
-
-        shell_exec('git fetch --all');
-        shell_exec('git reset --hard ' . $target);
-        //shell_exec('git clean -f -d');
-        shell_exec('git pull');
-
-        $output->writeln('Updating dependencies...');
-
-        shell_exec('composer update');
+        /*
+         * |--------------------------------------------------------------------------
+         * | Insert whatever commands are needed to deploy your app here
+         * |--------------------------------------------------------------------------
+         */
 
         $output->writeln('<info>Deployment complete!</info>');
 

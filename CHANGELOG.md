@@ -15,6 +15,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.2] - 2023.01.25
 
+## Added
+
 - Added boilerplate files.
 
 ## Changed
