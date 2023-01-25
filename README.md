@@ -57,7 +57,7 @@ php bones install:bare
 - `--veil`
 
 At this point, Bones is installed and configured.
-You can test this by running the `php bones about:app` command.
+You can test this by running the `php bones about:bones` command.
 
 You are now ready to begin building your application.
 

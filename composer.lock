@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8e5f1f7740086f868ab0adc35c1b561",
+    "content-hash": "d9b16bf777fe34fcc9cd7ba8bfe4ddcf",
     "packages": [
         {
             "name": "bayfrontmedia/bones",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/bones.git",
-                "reference": "ebbfb015b1b5ced8362579accc6dce23494dfddd"
+                "reference": "a22aa2f33d674284c7ceff900a0653b7c640cef4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/bones/zipball/ebbfb015b1b5ced8362579accc6dce23494dfddd",
-                "reference": "ebbfb015b1b5ced8362579accc6dce23494dfddd",
+                "url": "https://api.github.com/repos/bayfrontmedia/bones/zipball/a22aa2f33d674284c7ceff900a0653b7c640cef4",
+                "reference": "a22aa2f33d674284c7ceff900a0653b7c640cef4",
                 "shasum": ""
             },
             "require": {
@@ -70,9 +70,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/bones/issues",
-                "source": "https://github.com/bayfrontmedia/bones/tree/v2.0.0"
+                "source": "https://github.com/bayfrontmedia/bones/tree/v2.0.1"
             },
-            "time": "2023-01-24T21:07:50+00:00"
+            "time": "2023-01-24T22:29:11+00:00"
         },
         {
             "name": "bayfrontmedia/container",
