@@ -4,13 +4,9 @@ The app exceptions are located at `/app/Exceptions`.
 
 Bones exceptions documentation can be found [here](https://github.com/bayfrontmedia/bones/blob/master/docs/usage/exceptions.md).
 
-## App exceptions
-
 - [Handler](#handler)
 
-<hr />
-
-### Handler
+## Handler
 
 The exception handler is located at `/app/Exceptions/Handler.php`.
 

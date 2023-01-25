@@ -1,6 +1,6 @@
 {
   "name": "bayfrontmedia/bones-app",
-  "description": "The simplest bare-bones configuration to begin building an application using the Bones framework.",
+  "description": "A simple boilerplate to begin building an application using the Bones framework.",
   "homepage": "https://github.com/bayfrontmedia/bones-app",
   "license" : "MIT",
   "type": "project",
@@ -23,7 +23,7 @@
   },
   "require": {
     "php": ">=7.2.0",
-    "bayfrontmedia/bones": "^2.0"
+    "bayfrontmedia/bones": "^2.0.3"
   },
   "autoload": {
     "psr-4": {

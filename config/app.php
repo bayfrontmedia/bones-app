@@ -20,7 +20,5 @@ return [
         'autoload' => true,
         'load' => []
     ],
-    'deploy' => [
-        'backup_path' => App::getEnv('APP_DEPLOY_BACKUP_PATH')
-    ]
+    'backup_path' => App::getEnv('APP_BACKUP_PATH') // Optional. Used with deploy: commands
 ];
