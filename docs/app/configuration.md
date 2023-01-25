@@ -1,12 +1,12 @@
 # Configuration
 
-The app configuration files are located at `/confg`.
+The configuration files are located at `/confg`.
 
 Bones app configuration documentation can be found [here](https://github.com/bayfrontmedia/bones/blob/master/docs/usage/config.md).
 
-- [App configuration](#app-configuration)
+- [App](#app)
 
-## App configuration
+## App
 
 The required `app.php` app configuration file has the following additional keys:
 
