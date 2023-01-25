@@ -31,35 +31,27 @@ This project is open source and available under the [MIT License](LICENSE).
 composer create-project bayfrontmedia/bones-app PROJECT_NAME
 ```
 
-### Update required files
+### Define environment variables
 
-- Rename `.env.example` to `.env` and update* ([see docs](https://github.com/bayfrontmedia/bones/blob/master/docs/README.md#environment-variables))
-- Update `config/app.php` as needed ([see docs](https://github.com/bayfrontmedia/bones/blob/master/docs/usage/config.md))
+Rename `.env.example` to `.env` and update. ([see docs](https://github.com/bayfrontmedia/bones/blob/dev/docs/install/manual.md#add-required-environment-variables))
 
-\* There is typically no need to update the line `APP_KEY=SECURE_APP_KEY`, as the installation command below
-will automatically update this with a valid app key. 
-If an app key is not generated after running the installation command, one can be created with the
-`php bones key:create` command.
+> **NOTE:** Be sure to define a cryptographically secure app key for the APP_KEY variable.
+One can be created using the `php bones key:create` command once Bones is installed.
 
-### Run installation command
+### Configure the app
 
-```shell
-php bones install:bare
-```
+Update `config/app.php` as needed ([see docs](https://github.com/bayfrontmedia/bones/blob/master/docs/usage/config.md))
 
-[Optional services](https://github.com/bayfrontmedia/bones/blob/dev/docs/README.md#services) can be installed by including any of the following options:
+### Start using Bones
 
-- `--db`
-- `--filesystem`
-- `--logs`
-- `--router`
-- `--scheduler`
-- `--veil`
-
-At this point, Bones is installed and configured.
+At this point, Bones should be installed and ready to use.
 You can test this by running the `php bones about:bones` command.
 
 You are now ready to begin building your application.
+
+### Optional services
+
+Optional services can be installed by using the `php bones install:service` [console command](https://github.com/bayfrontmedia/bones/blob/master/docs/usage/console.md).
 
 ## Documentation
 
