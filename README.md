@@ -25,6 +25,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Installation
 
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/bayfrontmedia/bones-app/tree/main&refcode=7e41d0ac1ab5)
+
 ### Create project
 
 ```shell
@@ -36,7 +38,9 @@ composer create-project bayfrontmedia/bones-app PROJECT_NAME
 Rename `.env.example` to `.env` and update. ([see docs](https://github.com/bayfrontmedia/bones/blob/dev/docs/install/manual.md#add-required-environment-variables))
 
 > **NOTE:** Be sure to define a cryptographically secure app key for the APP_KEY variable.
-One can be created using the `php bones key:create` command once Bones is installed.
+
+Once Bones is installed, you can use the `php bones install:key` command to replace `SECURE_APP_KEY` with a valid key, 
+or you can use the `php bones make:key` command to generate a key you can define manually.
 
 ### Configure the app
 
