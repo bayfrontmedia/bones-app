@@ -36,6 +36,12 @@ class Bootstrap extends EventSubscriber implements EventSubscriberInterface
                     'method' => 'modifyResponseHeaders',
                     'priority' => 5
                 ]
+            ],
+            'app.http' => [
+                [
+                    'method' => 'sampleGreeting',
+                    'priority' => 5
+                ]
             ]
         ];
     }
@@ -44,7 +50,7 @@ class Bootstrap extends EventSubscriber implements EventSubscriberInterface
      * @return void
      */
 
-    public function modifyResponseHeaders()
+    public function modifyResponseHeaders(): void
     {
 
         $this->response->setHeaders([
@@ -52,6 +58,16 @@ class Bootstrap extends EventSubscriber implements EventSubscriberInterface
             'X-Application-Version' => App::getBonesVersion()
         ]);
 
+    }
+
+    /**
+     * @return void
+     */
+
+    public function sampleGreeting(): void
+
+    {
+        $this->response->setBody('<h1>Bones v' . App::getBonesVersion() . ' is successfully installed!</h1>')->send();
     }
 
 }

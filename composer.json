@@ -23,7 +23,7 @@
   },
   "require": {
     "php": ">=7.2.0",
-    "bayfrontmedia/bones": "^2.0.4"
+    "bayfrontmedia/bones": "^2.0.5"
   },
   "autoload": {
     "psr-4": {

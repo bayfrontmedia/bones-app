@@ -6,6 +6,7 @@ typically to perform tasks on every request.
 | Subscriber (method)                             | Event           | Priority |
 |-------------------------------------------------|-----------------|----------|
 | [modifyResponseHeaders](#modifyresponseheaders) | `app.bootstrap` | 5        |
+| [sampleGreeting](#samplegreeting)               | `app.http`      | 5        |
 
 ## modifyResponseHeaders
 
@@ -15,3 +16,8 @@ The following headers are added:
 
 - `X-Application`
 - `X-Application-Version`
+
+## sampleGreeting
+
+This method returns a sample response confirmation that Bones is successfully installed.
+If handling HTTP requests, this would typically be removed in favor of using a router.
