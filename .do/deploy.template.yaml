@@ -18,7 +18,3 @@ spec:
           value: "prod"
         - key: APP_TIMEZONE
           value: "UTC"
-        - key: ROUTER_HOST
-          value: "${APP_DOMAIN}"
-        - key: ROUTER_ROUTE_PREFIX
-          value: "/"
