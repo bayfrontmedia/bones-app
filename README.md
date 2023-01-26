@@ -35,7 +35,7 @@ composer create-project bayfrontmedia/bones-app PROJECT_NAME
 
 ### Define environment variables
 
-Rename `.env.example` to `.env` and update. ([see docs](https://github.com/bayfrontmedia/bones/blob/dev/docs/install/manual.md#add-required-environment-variables))
+Rename `.env.example` to `.env` and update. ([see docs](https://github.com/bayfrontmedia/bones/blob/master/docs/install/manual.md#add-required-environment-variables))
 
 > **NOTE:** Be sure to define a cryptographically secure app key for the APP_KEY variable.
 
@@ -51,7 +51,8 @@ Update `config/app.php` as needed. ([see docs](https://github.com/bayfrontmedia/
 You are now ready to begin building your application! 
 
 At this point, Bones should be installed and ready to use.
-You can test this by running the console command `php bones about:bones`.
+You can test this by running the console command `php bones about:bones`,
+or by viewing the public web root in your browser.
 
 ### Optional services
 
