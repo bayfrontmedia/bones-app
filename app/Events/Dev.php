@@ -1,6 +1,6 @@
 <?php
 
-namespace Bones\Events;
+namespace App\Events;
 
 use Bayfront\Bones\Abstracts\EventSubscriber;
 use Bayfront\Bones\Application\Utilities\App;
