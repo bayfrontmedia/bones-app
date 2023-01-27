@@ -16,9 +16,9 @@ use Bayfront\HttpResponse\Response;
 class Errors extends Controller
 {
 
-    protected $events;
-    protected $filters;
-    protected $response;
+    protected EventService $events;
+    protected FilterService $filters;
+    protected Response $response;
 
     /**
      * The container will resolve any dependencies.
@@ -41,7 +41,7 @@ class Errors extends Controller
      * @return void
      */
 
-    public function error404(array $data)
+    public function error404(array $data): void
     {
 
         $this->events->doEvent('error.404', $data);

@@ -22,8 +22,8 @@
     "preferred-install": "dist"
   },
   "require": {
-    "php": ">=7.2.0",
-    "bayfrontmedia/bones": "^2.0.5"
+    "php": "^8.0",
+    "bayfrontmedia/bones": "^3.0"
   },
   "autoload": {
     "psr-4": {

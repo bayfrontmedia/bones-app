@@ -46,7 +46,7 @@ class Dev extends EventSubscriber implements EventSubscriberInterface
      * @return void
      */
 
-    public function sampleMethod()
+    public function sampleMethod(): void
     {
         // Do something amazing
     }

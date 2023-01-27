@@ -22,7 +22,7 @@ class DeployApp extends Command
      * @return void
      */
 
-    protected function configure()
+    protected function configure(): void
     {
 
         $this->setName('deploy:app')

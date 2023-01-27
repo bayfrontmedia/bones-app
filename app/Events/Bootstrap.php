@@ -13,7 +13,7 @@ use Bayfront\HttpResponse\Response;
 class Bootstrap extends EventSubscriber implements EventSubscriberInterface
 {
 
-    protected $response;
+    protected Response $response;
 
     /**
      * The container will resolve any dependencies.
