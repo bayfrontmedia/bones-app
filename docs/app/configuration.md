@@ -8,10 +8,7 @@ Bones app configuration documentation can be found [here](https://github.com/bay
 
 ## App
 
-The required `app.php` app configuration file has the following additional keys:
+In addition to the `app.php` configuration required by Bones, this application adds the following:
 
-### backup_path
-
-The `backup_path` key specifies the path where deployment backups will be saved on the server.
-
-This key must exist in order to use the deployment-related [console commands](console.md).
+- `backup_path` - The `backup_path` key specifies the path where deployment backups will be saved on the server.
+  This key must exist in order to use the deployment-related [console commands](console.md).
