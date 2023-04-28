@@ -1,6 +1,6 @@
 # Events: Dev
 
-The Dev event subscriber exists to subscribe to events when the application environment is `dev`.
+Actions to perform when environment = `dev`.
 
 | Subscriber (method)           | Event           | Priority |
 |-------------------------------|-----------------|----------|

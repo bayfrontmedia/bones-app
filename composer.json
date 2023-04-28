@@ -29,6 +29,9 @@
   "autoload": {
     "psr-4": {
       "App\\": "app/"
-    }
+    },
+    "classmap": [
+      "resources/database/migrations/"
+    ]
   }
 }
