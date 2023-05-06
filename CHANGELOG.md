@@ -13,15 +13,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Fixed` for any bug fixes.
 - `Security` in case of vulnerabilities
 
-# [1.0.1] - Upcoming
+# [1.0.1] - 2023.05.06
 
 ### Added
 
 - Added missing classmap array in `composer.json`
+- Added additional installation instructions
 
 ### Changed
 
-- Updated documentation.
+- Updated documentation
+- Updated the default functionality of the `deploy:app` console command
 
 # [1.0.0] - 2023.04.06
 
