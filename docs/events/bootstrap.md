@@ -1,7 +1,6 @@
 # Events: Bootstrap
 
-The Bootstrap event subscriber exists to subscribe to events necessary to bootstrap the application,
-typically to perform tasks on every request.
+Actions to perform in order to bootstrap the application.
 
 | Subscriber (method)                             | Event           | Priority |
 |-------------------------------------------------|-----------------|----------|
@@ -10,7 +9,7 @@ typically to perform tasks on every request.
 
 ## modifyResponseHeaders
 
-This method exists to modify the headers sent whenever the [response service](https://github.com/bayfrontmedia/bones/blob/master/docs/services/response.md) sends.
+Add Bones values to the [HTTP response](https://github.com/bayfrontmedia/bones/blob/master/docs/services/response.md) headers.
 
 The following headers are added:
 

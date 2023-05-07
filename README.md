@@ -48,6 +48,16 @@ or you can use the `php bones make:key` command to generate a key you can define
 
 Update `config/app.php` as needed. ([see docs](https://github.com/bayfrontmedia/bones/blob/master/docs/usage/config.md))
 
+### Set file permissions
+
+The web server must have write permissions to the `storage/app` directory.
+Typically, this is done by granting the `www-data` group ownership and write access:
+
+```shell
+chgrp -R www-data /path/to/storage/app
+chmod -R 775 /path/to/storage/app
+```
+
 ### Start using Bones
 
 You are now ready to begin building your application! 
