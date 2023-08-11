@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d70176734696f5094007dc15ee589d8",
+    "content-hash": "e4ad029fcc73fb0321344cf82926183c",
     "packages": [
         {
             "name": "bayfrontmedia/bones",
-            "version": "v3.1.3",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/bones.git",
-                "reference": "d47416f0bdd1d555268fb3720f04d2c76bbdfda1"
+                "reference": "9c0b1b22abae8f08bf4a86f3107411b4332082e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/bones/zipball/d47416f0bdd1d555268fb3720f04d2c76bbdfda1",
-                "reference": "d47416f0bdd1d555268fb3720f04d2c76bbdfda1",
+                "url": "https://api.github.com/repos/bayfrontmedia/bones/zipball/9c0b1b22abae8f08bf4a86f3107411b4332082e0",
+                "reference": "9c0b1b22abae8f08bf4a86f3107411b4332082e0",
                 "shasum": ""
             },
             "require": {
@@ -28,12 +28,12 @@
                 "bayfrontmedia/php-http-request": "^v3.0",
                 "bayfrontmedia/php-http-response": "^2.0",
                 "bayfrontmedia/php-time-helpers": "^2.0",
-                "bayfrontmedia/php-validator": "^2.0",
+                "bayfrontmedia/php-validator": "^2.1",
                 "bayfrontmedia/route-it": "^3.0",
-                "bayfrontmedia/simple-pdo": "^2.0",
+                "bayfrontmedia/simple-pdo": "^3.0",
                 "bayfrontmedia/veil": "^2.1",
                 "ext-json": "*",
-                "filp/whoops": "^2.14",
+                "filp/whoops": "^2.15",
                 "php": "^8.0",
                 "symfony/console": "^6.2",
                 "vlucas/phpdotenv": "^5.5"
@@ -65,9 +65,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/bones/issues",
-                "source": "https://github.com/bayfrontmedia/bones/tree/v3.1.3"
+                "source": "https://github.com/bayfrontmedia/bones/tree/v3.2.0"
             },
-            "time": "2023-04-05T16:17:39+00:00"
+            "time": "2023-05-11T16:45:23+00:00"
         },
         {
             "name": "bayfrontmedia/container",
@@ -537,16 +537,16 @@
         },
         {
             "name": "bayfrontmedia/php-validator",
-            "version": "v2.0.0",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/php-validator.git",
-                "reference": "3b770deee2d23732aba0935c5a8b4491de2eb78b"
+                "reference": "fbf494228fd31261288318a6b1bb2710ba1e359a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/php-validator/zipball/3b770deee2d23732aba0935c5a8b4491de2eb78b",
-                "reference": "3b770deee2d23732aba0935c5a8b4491de2eb78b",
+                "url": "https://api.github.com/repos/bayfrontmedia/php-validator/zipball/fbf494228fd31261288318a6b1bb2710ba1e359a",
+                "reference": "fbf494228fd31261288318a6b1bb2710ba1e359a",
                 "shasum": ""
             },
             "require": {
@@ -585,22 +585,22 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/php-validator/issues",
-                "source": "https://github.com/bayfrontmedia/php-validator/tree/v2.0.0"
+                "source": "https://github.com/bayfrontmedia/php-validator/tree/v2.2.0"
             },
-            "time": "2023-01-26T17:07:10+00:00"
+            "time": "2023-05-12T01:52:25+00:00"
         },
         {
             "name": "bayfrontmedia/route-it",
-            "version": "v3.0.0",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/route-it.git",
-                "reference": "24e6d9dfbea6219ac2011455af1fabb5450bd336"
+                "reference": "987945d5ea1d0ee07c36c24751419db5a8115bf7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/route-it/zipball/24e6d9dfbea6219ac2011455af1fabb5450bd336",
-                "reference": "24e6d9dfbea6219ac2011455af1fabb5450bd336",
+                "url": "https://api.github.com/repos/bayfrontmedia/route-it/zipball/987945d5ea1d0ee07c36c24751419db5a8115bf7",
+                "reference": "987945d5ea1d0ee07c36c24751419db5a8115bf7",
                 "shasum": ""
             },
             "require": {
@@ -640,22 +640,22 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/route-it/issues",
-                "source": "https://github.com/bayfrontmedia/route-it/tree/v3.0.0"
+                "source": "https://github.com/bayfrontmedia/route-it/tree/v3.1.1"
             },
-            "time": "2023-01-27T18:29:06+00:00"
+            "time": "2023-08-10T21:20:02+00:00"
         },
         {
             "name": "bayfrontmedia/simple-pdo",
-            "version": "v2.2.0",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/simple-pdo.git",
-                "reference": "7b4dcbdd57acdc6f4e14094a1666954514864bbe"
+                "reference": "1b590538b04331969b367b32559e477aa730a222"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/simple-pdo/zipball/7b4dcbdd57acdc6f4e14094a1666954514864bbe",
-                "reference": "7b4dcbdd57acdc6f4e14094a1666954514864bbe",
+                "url": "https://api.github.com/repos/bayfrontmedia/simple-pdo/zipball/1b590538b04331969b367b32559e477aa730a222",
+                "reference": "1b590538b04331969b367b32559e477aa730a222",
                 "shasum": ""
             },
             "require": {
@@ -692,22 +692,22 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/simple-pdo/issues",
-                "source": "https://github.com/bayfrontmedia/simple-pdo/tree/v2.2.0"
+                "source": "https://github.com/bayfrontmedia/simple-pdo/tree/v3.0.0"
             },
-            "time": "2023-04-21T16:05:43+00:00"
+            "time": "2023-05-10T15:15:37+00:00"
         },
         {
             "name": "bayfrontmedia/veil",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/veil.git",
-                "reference": "8f0c0d60bb11087fc9d82c7671cfbf456f02991c"
+                "reference": "b730a91ce50c90ab0d6a8036bbc71e4030e9edaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/veil/zipball/8f0c0d60bb11087fc9d82c7671cfbf456f02991c",
-                "reference": "8f0c0d60bb11087fc9d82c7671cfbf456f02991c",
+                "url": "https://api.github.com/repos/bayfrontmedia/veil/zipball/b730a91ce50c90ab0d6a8036bbc71e4030e9edaf",
+                "reference": "b730a91ce50c90ab0d6a8036bbc71e4030e9edaf",
                 "shasum": ""
             },
             "require": {
@@ -747,22 +747,22 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/veil/issues",
-                "source": "https://github.com/bayfrontmedia/veil/tree/v2.1.0"
+                "source": "https://github.com/bayfrontmedia/veil/tree/v2.1.1"
             },
-            "time": "2023-04-05T12:17:13+00:00"
+            "time": "2023-07-27T15:21:38+00:00"
         },
         {
             "name": "dragonmantank/cron-expression",
-            "version": "v3.3.2",
+            "version": "v3.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dragonmantank/cron-expression.git",
-                "reference": "782ca5968ab8b954773518e9e49a6f892a34b2a8"
+                "reference": "adfb1f505deb6384dc8b39804c5065dd3c8c8c0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/782ca5968ab8b954773518e9e49a6f892a34b2a8",
-                "reference": "782ca5968ab8b954773518e9e49a6f892a34b2a8",
+                "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/adfb1f505deb6384dc8b39804c5065dd3c8c8c0a",
+                "reference": "adfb1f505deb6384dc8b39804c5065dd3c8c8c0a",
                 "shasum": ""
             },
             "require": {
@@ -802,7 +802,7 @@
             ],
             "support": {
                 "issues": "https://github.com/dragonmantank/cron-expression/issues",
-                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.2"
+                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.3"
             },
             "funding": [
                 {
@@ -810,7 +810,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-10T18:51:20+00:00"
+            "time": "2023-08-10T19:36:49+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -864,16 +864,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.15.2",
+            "version": "2.15.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "aac9304c5ed61bf7b1b7a6064bf9806ab842ce73"
+                "reference": "c83e88a30524f9360b11f585f71e6b17313b7187"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/aac9304c5ed61bf7b1b7a6064bf9806ab842ce73",
-                "reference": "aac9304c5ed61bf7b1b7a6064bf9806ab842ce73",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/c83e88a30524f9360b11f585f71e6b17313b7187",
+                "reference": "c83e88a30524f9360b11f585f71e6b17313b7187",
                 "shasum": ""
             },
             "require": {
@@ -923,7 +923,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.15.2"
+                "source": "https://github.com/filp/whoops/tree/2.15.3"
             },
             "funding": [
                 {
@@ -931,7 +931,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-04-12T12:00:00+00:00"
+            "time": "2023-07-13T12:00:00+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -1220,23 +1220,23 @@
         },
         {
             "name": "symfony/console",
-            "version": "v6.2.10",
+            "version": "v6.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "12288d9f4500f84a4d02254d4aa968b15488476f"
+                "reference": "aa5d64ad3f63f2e48964fc81ee45cb318a723898"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/12288d9f4500f84a4d02254d4aa968b15488476f",
-                "reference": "12288d9f4500f84a4d02254d4aa968b15488476f",
+                "url": "https://api.github.com/repos/symfony/console/zipball/aa5d64ad3f63f2e48964fc81ee45cb318a723898",
+                "reference": "aa5d64ad3f63f2e48964fc81ee45cb318a723898",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
-                "symfony/deprecation-contracts": "^2.1|^3",
+                "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/polyfill-mbstring": "~1.0",
-                "symfony/service-contracts": "^1.1|^2|^3",
+                "symfony/service-contracts": "^2.5|^3",
                 "symfony/string": "^5.4|^6.0"
             },
             "conflict": {
@@ -1257,12 +1257,6 @@
                 "symfony/lock": "^5.4|^6.0",
                 "symfony/process": "^5.4|^6.0",
                 "symfony/var-dumper": "^5.4|^6.0"
-            },
-            "suggest": {
-                "psr/log": "For using the console logger",
-                "symfony/event-dispatcher": "",
-                "symfony/lock": "",
-                "symfony/process": ""
             },
             "type": "library",
             "autoload": {
@@ -1296,7 +1290,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v6.2.10"
+                "source": "https://github.com/symfony/console/tree/v6.3.2"
             },
             "funding": [
                 {
@@ -1312,20 +1306,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-28T13:37:43+00:00"
+            "time": "2023-07-19T20:17:28+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.2.1",
+            "version": "v3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "e2d1534420bd723d0ef5aec58a22c5fe60ce6f5e"
+                "reference": "7c3aff79d10325257a001fcf92d991f24fc967cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/e2d1534420bd723d0ef5aec58a22c5fe60ce6f5e",
-                "reference": "e2d1534420bd723d0ef5aec58a22c5fe60ce6f5e",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/7c3aff79d10325257a001fcf92d991f24fc967cf",
+                "reference": "7c3aff79d10325257a001fcf92d991f24fc967cf",
                 "shasum": ""
             },
             "require": {
@@ -1334,7 +1328,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "3.3-dev"
+                    "dev-main": "3.4-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -1363,7 +1357,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.2.1"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.3.0"
             },
             "funding": [
                 {
@@ -1379,7 +1373,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-01T10:25:55+00:00"
+            "time": "2023-05-23T14:45:45+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1796,16 +1790,16 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v3.2.1",
+            "version": "v3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "a8c9cedf55f314f3a186041d19537303766df09a"
+                "reference": "40da9cc13ec349d9e4966ce18b5fbcd724ab10a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/a8c9cedf55f314f3a186041d19537303766df09a",
-                "reference": "a8c9cedf55f314f3a186041d19537303766df09a",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/40da9cc13ec349d9e4966ce18b5fbcd724ab10a4",
+                "reference": "40da9cc13ec349d9e4966ce18b5fbcd724ab10a4",
                 "shasum": ""
             },
             "require": {
@@ -1815,13 +1809,10 @@
             "conflict": {
                 "ext-psr": "<1.1|>=2"
             },
-            "suggest": {
-                "symfony/service-implementation": ""
-            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "3.3-dev"
+                    "dev-main": "3.4-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -1861,7 +1852,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/service-contracts/tree/v3.2.1"
+                "source": "https://github.com/symfony/service-contracts/tree/v3.3.0"
             },
             "funding": [
                 {
@@ -1877,20 +1868,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-01T10:32:47+00:00"
+            "time": "2023-05-23T14:45:45+00:00"
         },
         {
             "name": "symfony/string",
-            "version": "v6.2.8",
+            "version": "v6.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "193e83bbd6617d6b2151c37fff10fa7168ebddef"
+                "reference": "53d1a83225002635bca3482fcbf963001313fb68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/193e83bbd6617d6b2151c37fff10fa7168ebddef",
-                "reference": "193e83bbd6617d6b2151c37fff10fa7168ebddef",
+                "url": "https://api.github.com/repos/symfony/string/zipball/53d1a83225002635bca3482fcbf963001313fb68",
+                "reference": "53d1a83225002635bca3482fcbf963001313fb68",
                 "shasum": ""
             },
             "require": {
@@ -1901,13 +1892,13 @@
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "conflict": {
-                "symfony/translation-contracts": "<2.0"
+                "symfony/translation-contracts": "<2.5"
             },
             "require-dev": {
                 "symfony/error-handler": "^5.4|^6.0",
                 "symfony/http-client": "^5.4|^6.0",
                 "symfony/intl": "^6.2",
-                "symfony/translation-contracts": "^2.0|^3.0",
+                "symfony/translation-contracts": "^2.5|^3.0",
                 "symfony/var-exporter": "^5.4|^6.0"
             },
             "type": "library",
@@ -1947,7 +1938,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v6.2.8"
+                "source": "https://github.com/symfony/string/tree/v6.3.2"
             },
             "funding": [
                 {
@@ -1963,7 +1954,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-20T16:06:02+00:00"
+            "time": "2023-07-05T08:41:27+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

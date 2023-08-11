@@ -19,12 +19,13 @@
     "issues": "https://github.com/bayfrontmedia/bones-app/issues"
   },
   "config": {
-    "optimize-autoloader": true,
     "preferred-install": "dist"
   },
   "require": {
     "php": "^8.0",
     "bayfrontmedia/bones": "^3.1"
+  },
+  "require-dev": {
   },
   "autoload": {
     "psr-4": {
