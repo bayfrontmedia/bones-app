@@ -14,7 +14,7 @@ This command is designed to help facilitate the app deployment process.
 An example has been given, but you will most likely need to customize this command
 depending on your application and server configuration.
 
-> **NOTE:** This command requires an additional `backup_path` key to exist in the [app configuration file](configuration.md#app)
+> **NOTE:** This command requires an additional `backup_path` key to exist in the [deploy configuration file](configuration.md#deploy)
 in order to use the backup option.
 
 ```shell
@@ -29,7 +29,7 @@ php bones deploy:app TARGET --backup
 
 This command is designed to purge unwanted deployment backups.
 
-> **NOTE:** This command requires an additional `backup_path` key to exist in the [app configuration file](configuration.md#app).
+> **NOTE:** This command requires an additional `backup_path` key to exist in the [deploy configuration file](configuration.md#deploy).
 
 ```shell
 # Purge deployment backups
