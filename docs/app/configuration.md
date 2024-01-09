@@ -15,4 +15,10 @@ The `deploy.php` file includes configuration for deployment scripts (console com
 This is only needed if intending to use the included [DeployApp](console.md#deployapp) or 
 [DeployPurge](console.md#deploypurge) console commands.
 
-- `backup_path` - The `backup_path` key specifies the path where deployment backups will be saved on the server.
+Example:
+
+```php
+return [
+    'backup_path' => App::getEnv('APP_BACKUP_PATH') // Path where deployment backups will be saved on the server
+];
+```

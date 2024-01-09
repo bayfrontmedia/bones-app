@@ -7,5 +7,5 @@ use Bayfront\Bones\Application\Utilities\App;
  */
 
 return [
-    'backup_path' => App::getEnv('APP_BACKUP_PATH') // Optional. Used with deploy: commands
+    'backup_path' => App::getEnv('APP_BACKUP_PATH') // Path where deployment backups will be saved on the server
 ];
