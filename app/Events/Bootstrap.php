@@ -3,6 +3,7 @@
 namespace App\Events;
 
 use Bayfront\Bones\Abstracts\EventSubscriber;
+use Bayfront\Bones\Application\Services\Events\EventSubscription;
 use Bayfront\Bones\Application\Utilities\App;
 use Bayfront\Bones\Interfaces\EventSubscriberInterface;
 use Bayfront\HttpResponse\Response;
@@ -30,23 +31,17 @@ class Bootstrap extends EventSubscriber implements EventSubscriberInterface
 
     public function getSubscriptions(): array
     {
+
         return [
-            'app.bootstrap' => [
-                [
-                    'method' => 'modifyResponseHeaders',
-                    'priority' => 5
-                ]
-            ],
-            'app.http' => [
-                [
-                    'method' => 'sampleGreeting',
-                    'priority' => 5
-                ]
-            ]
+            new EventSubscription('app.bootstrap', [$this, 'modifyResponseHeaders'], 10),
+            new EventSubscription('app.http', [$this, 'sampleGreeting'], 10)
         ];
+
     }
 
     /**
+     * Add Bones values to the HTTP response headers.
+     *
      * @return void
      */
 
@@ -61,6 +56,9 @@ class Bootstrap extends EventSubscriber implements EventSubscriberInterface
     }
 
     /**
+     * Return a sample response confirmation that Bones is successfully installed.
+     * If handling HTTP requests, this would typically be removed in favor of using a router.
+     *
      * @return void
      */
 

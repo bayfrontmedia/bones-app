@@ -13,14 +13,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Fixed` for any bug fixes.
 - `Security` in case of vulnerabilities
 
-# [1.0.2] - 2023.08.10
+## [2.0.0] - 2024.01.08
+
+### Added
+
+- Added app version to app config file
+- Added `ConsoleFilters` class
+
+### Changed
+
+- Updated to work with Bones `v4.0`
+
+## [1.0.2] - 2023.08.10
 
 ### Changed
 
 - Cleaned up deploy console commands
 - Fixed `.gitignore` bugs
 
-# [1.0.1] - 2023.05.06
+## [1.0.1] - 2023.05.06
 
 ### Added
 
@@ -32,7 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated documentation
 - Updated the default functionality of the `deploy:app` console command
 
-# [1.0.0] - 2023.04.06
+## [1.0.0] - 2023.04.06
 
 ### Added
 

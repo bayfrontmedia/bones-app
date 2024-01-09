@@ -2,11 +2,10 @@
 
 Actions to perform when environment = `dev`.
 
-| Subscriber (method)           | Event           | Priority |
+| Subscription (method)         | Event           | Priority |
 |-------------------------------|-----------------|----------|
-| [sampleMethod](#samplemethod) | `app.bootstrap` | 5        |
-
+| [sampleMethod](#samplemethod) | `app.bootstrap` | 10       |
 
 ## sampleMethod
 
-This method is a placeholder and can be removed.
+This is a placeholder and can be removed.

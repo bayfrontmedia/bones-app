@@ -2,10 +2,10 @@
 
 Actions to perform in order to bootstrap the application.
 
-| Subscriber (method)                             | Event           | Priority |
+| Subscription (method)                           | Event           | Priority |
 |-------------------------------------------------|-----------------|----------|
-| [modifyResponseHeaders](#modifyresponseheaders) | `app.bootstrap` | 5        |
-| [sampleGreeting](#samplegreeting)               | `app.http`      | 5        |
+| [modifyResponseHeaders](#modifyresponseheaders) | `app.bootstrap` | 10       |
+| [sampleGreeting](#samplegreeting)               | `app.http`      | 10       |
 
 ## modifyResponseHeaders
 
@@ -18,5 +18,5 @@ The following headers are added:
 
 ## sampleGreeting
 
-This method returns a sample response confirmation that Bones is successfully installed.
+Return a sample response confirmation that Bones is successfully installed.
 If handling HTTP requests, this would typically be removed in favor of using a router.
