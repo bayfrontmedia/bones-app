@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "bayfrontmedia/bones",
-            "version": "v4.0.0",
+            "version": "v4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/bones.git",
-                "reference": "1b5dff08d0e444f71b6e74f7743ad2b8c0902e11"
+                "reference": "1761c5b92bae72eadc9aba05e5822d2069a10ea8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/bones/zipball/1b5dff08d0e444f71b6e74f7743ad2b8c0902e11",
-                "reference": "1b5dff08d0e444f71b6e74f7743ad2b8c0902e11",
+                "url": "https://api.github.com/repos/bayfrontmedia/bones/zipball/1761c5b92bae72eadc9aba05e5822d2069a10ea8",
+                "reference": "1761c5b92bae72eadc9aba05e5822d2069a10ea8",
                 "shasum": ""
             },
             "require": {
@@ -66,9 +66,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/bones/issues",
-                "source": "https://github.com/bayfrontmedia/bones/tree/v4.0.0"
+                "source": "https://github.com/bayfrontmedia/bones/tree/v4.0.1"
             },
-            "time": "2024-01-08T21:33:34+00:00"
+            "time": "2024-01-09T00:23:33+00:00"
         },
         {
             "name": "bayfrontmedia/container",

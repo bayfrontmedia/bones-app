@@ -15,6 +15,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.0.0] - 2024.01.08
 
+### Added
+
+- Added app version to app config file
+- Added `ConsoleFilters` class
+
 ### Changed
 
 - Updated to work with Bones `v4.0`
