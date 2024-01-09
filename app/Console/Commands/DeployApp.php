@@ -120,7 +120,7 @@ class DeployApp extends Command
         // $output->writeln('<info>Running database migrations...</info>');
         // shell_exec('php bones migrate:up --force');
 
-        // ------------------------- Cache resources -------------------------
+        // ------------------------- (Re)cache resources -------------------------
 
         $output->writeln('<info>Caching resources...</info>');
 
