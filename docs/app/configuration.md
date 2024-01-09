@@ -13,7 +13,7 @@ In addition, this file also contains the following keys:
 
 ```php
 [
-    'version' => '1.0.0' // App version (string)
+    'version' => '1.0.0' // Current app version (string)
 ]
 ```
 

@@ -5,7 +5,7 @@ Actions to perform in order to bootstrap the application.
 | Subscription (method)                           | Event           | Priority |
 |-------------------------------------------------|-----------------|----------|
 | [modifyResponseHeaders](#modifyresponseheaders) | `app.bootstrap` | 10       |
-| [sampleGreeting](#samplegreeting)               | `app.http`      | 5        |
+| [sampleGreeting](#samplegreeting)               | `app.http`      | 10       |
 
 ## modifyResponseHeaders
 
