@@ -24,7 +24,7 @@
   },
   "require": {
     "php": "^8.0",
-    "bayfrontmedia/bones": "^4.0"
+    "bayfrontmedia/bones": "^4.2"
   },
   "require-dev": {
   },
