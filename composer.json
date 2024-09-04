@@ -24,16 +24,13 @@
   },
   "require": {
     "php": "^8.0",
-    "bayfrontmedia/bones": "^4.2"
+    "bayfrontmedia/bones": "^5.0"
   },
   "require-dev": {
   },
   "autoload": {
     "psr-4": {
       "App\\": "app/"
-    },
-    "classmap": [
-      "resources/database/migrations/"
-    ]
+    }
   }
 }
